@@ -15,17 +15,22 @@
 
       margin: auto;
       width: 50ch;
+      background-image:
     }
     
     header {
-      background: rebeccapurple;
-      padding: 1em;
+      background: skyblue;
+      padding: 2 em;
       color: white;
       text-align: center;
     }
 
+    h1 {
+    font-size: 36px;
+    color: black;
+
     footer {
-      background: grey;
+      background: black;
       color: white;
       text-align: center;
       padding: 1em;
