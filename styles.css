@@ -3,7 +3,7 @@
     
 
 body {
-      margin: 0;
+      margin: auto;
     }
     .wrapper {
       display: flex;
@@ -52,7 +52,7 @@ body {
 }
     
 footer {
-      background: black;
+      background: grey;
       color: white;
       text-align: center;
       padding: 1em;
