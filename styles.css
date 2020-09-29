@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville|Nunito&display=swap");
+    
 
-    body {
+body {
       margin: 0;
     }
     .wrapper {
@@ -11,11 +14,25 @@
     }
 
     main {
-      flex-grow: 1;
+  display: flex;  
+  margin: auto;
+  width: 50ch;
+  height: 100vh;
+  justify-content: flex-end;
+  align-items: stretch;
+  background-size: cover;
+  background-position: center;
+  background-color: hsl(330deg, 95%, 85%);
+  border: 5px solid white;
 
-      margin: auto;
-      width: 50ch;
-      background-image:
+  background-image: linear-gradient(35deg, goldenrod 10%, transparent 75%),
+    linear-gradient(180deg, lightseagreen 50%, transparent 75%),
+    url("https://picsum.photos/id/1034/800/800");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
     }
     
     header {
